@@ -19,7 +19,7 @@ void setup(){
   float h;
   if(hour()>12)
   {
-  h=map(hour(),0,24,0,2);
+  h=map(hour()-12,0,24,0,2);
   }
   else
   {
